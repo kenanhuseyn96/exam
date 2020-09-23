@@ -1,0 +1,51 @@
+body{
+	margin: 0; 
+	background: silver;
+}
+	
+	.container {
+		width: 80%;
+		height: 80vh;
+		background: #fff;
+		overflow: hidden;
+		margin: 10px auto;
+	}
+		
+		#slider {
+			width: 100%;
+			height: 85vh;
+			box-shadow: 0 0 10px gray;
+			position: relative;
+			overflow: hidden;
+			
+		}
+		#main {
+		    position:absolute;
+			color:#fff;
+			height: 100%;
+			width: 25%;
+			background: rgba(255,255,255, 0.5);
+			top: 0;
+			right: 0;
+		}
+		#tumbs {
+			position: absolute;
+			width: 100%;
+			bottom: 45px;
+			left: 810px;
+		
+			}
+			#tumbs>img {
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				border: 2px solid #fff;
+				box-shadow: 0 0 5px black;
+				margin: 0 6px;
+				cursor: pointer;
+			}
+			#cardtext {
+				font-size: 15px;
+			}
+
+		
